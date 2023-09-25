@@ -4,7 +4,7 @@ int main()
 {
     float filiais[8], sum=0;
     int qtd=0;
-    for (int i; i<8; i++){
+    for (int i=0; i<8; i++){
         scanf("%f", &filiais[i]);
         sum+=filiais[i];
         if(filiais[i]>=0){
