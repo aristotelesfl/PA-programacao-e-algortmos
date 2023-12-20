@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int area_triangulo(float base, float altura){
+float area_triangulo(float base, float altura){
     float area;
     area = (base*altura)/2;
     return area;
